@@ -3,9 +3,13 @@
     include './movie.php';    
 
     $movie = new Movie("Kill Bill", "2003");
+    $movie->director = "Quentin Tarantino";
+    $movie->genre= "Azione";
     var_dump($movie);
 
     $film = new Movie ("Nightmare before Christmas", "1993");
+    $film->director = "Tim Burton";
+    $film->genre = "Animazione";
     var_dump($film);
 ?>
 
