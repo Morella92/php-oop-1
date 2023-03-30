@@ -3,8 +3,10 @@
     include './movie.php';    
 
     $movie = new Movie("Kill Bill", "2003");
+    var_dump($movie);
 
-    var_dump($movie)
+    $film = new Movie ("Nightmare before Christmas", "1993");
+    var_dump($film);
 ?>
 
 <!DOCTYPE html>
