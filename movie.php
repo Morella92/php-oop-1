@@ -9,6 +9,7 @@ class Movie {
   public $director;
   public int $year;
   public $genre;
+  public $description;
 
   // Definizione del costruttore
     function __construct($_title, $_year) {
